@@ -35,7 +35,7 @@
 
 ## Deployment steps
 
-For the first step, we need to deploy these environments in order: `static` --> `common` --> `asg`. After first deployment, our changes will usually happen in `asg` category, so we don't need to touch other environments anymore.
+For the first step, we need to deploy these environments in order: `1static` --> `2common` --> `3asg`. After first deployment, our changes will usually happen in `asg` category, so we don't need to touch other environments anymore.
 
 The workflow for each part is basically quite the same:
 
